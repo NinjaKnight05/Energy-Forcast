@@ -21,7 +21,7 @@ menu = option_menu(
 )
 
 if menu == 'Home':
-    st.title('⚡ Energy Consumption Forecast')
+    st.title('⚠️ Energy Consumption Forecast')
     st.text('')
     st.subheader('About..')
     st.text('This app predicts energy consumption (in Megawatts) for the AEP region of the United states using historical hourly data from 2004 to 2018')
@@ -38,7 +38,7 @@ if menu == 'Home':
 - R2 Score: 0.99
 - Dataset: 121,000+ hourly records""")
 elif menu == 'Prediction':
-    st.title('⚡ Energy Forecast')
+    st.title('⚠️ Energy Forecast')
     
     col1, col2 = st.columns(2)
     with col1:
